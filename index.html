@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/repaircars.css" />
+    <title>game_repair_car</title>
+  </head>
+  <body>
+    <header>
+      <!-- <h1 id="title"><a href="index.html">GAME</a></h1> -->
+      <!-- <nav id="globalNav">
+            <ul>
+                <li><a class="nav" href="index.html">Game</a></li>
+                <li><a class="nav" href="assetlist.html">Assetlist</a></li>
+            </ul>
+        </nav> -->
+    </header>
+    <main>
+      <section id="screen">
+        <div id="game_background"></div>
+
+        <div id="game_container1" class="fallDown position1">
+          <div id="cardoor"></div>
+        </div>
+
+        <div id="game_container2" class="fallDown position5">
+          <div id="carwash"></div>
+        </div>
+
+        <div id="game_container3" class="fallDown position3">
+          <div id="petrol"></div>
+        </div>
+
+        <div id="game_container4" class="fallDown position6">
+          <div id="hammer"></div>
+        </div>
+
+        <div id="game_container5" class="fallDown position2">
+          <div id="danger"></div>
+        </div>
+
+        <div id="game_container6" class="fallDown position7">
+          <div id="kracker"></div>
+        </div>
+
+        <div id="game_ui">
+          <div id="ui_container1">
+            <div id="score_board">Score: 0</div>
+          </div>
+
+          <div id="ui_container2">
+            <div id="health_indicator">Lives: 5</div>
+          </div>
+
+          <div id="ui_container3">
+            <div id="timer">Countdown:</div>
+          </div>
+          <div id="pausegame"></div>
+        </div>
+
+        <div id="musicToggle"></div>
+        <div id="fxToggle"></div>
+
+        <div id="sounds">
+          <audio id="bgmusic" src="sound/bgmusic.mp3"></audio>
+          <audio id="doorsound" src="sound/bellsound.mp3"></audio>
+          <audio id="washsound" src="sound/bellsound.mp3"></audio>
+          <audio id="petrolsound" src="sound/bellsound.mp3"></audio>
+
+          <audio id="hammersound" src="sound/vibration.mp3"></audio>
+          <audio id="dangersound" src="sound/vibration.mp3"></audio>
+          <audio id="krackersound" src="sound/vibration.mp3"></audio>
+          <audio id="praisesound" src="sound/praisesound.mp3"></audio>
+          <audio id="losesound" src="sound/losesound.mp3"></audio>
+        </div>
+
+        <div id="title_screen" class="hidden">
+          <p id="logo">Repair Cars</p>
+          <p id="text">Help Katty!!!</p>
+          <div id="playgame"></div>
+          <div class="rules"></div>
+        </div>
+
+        <div id="instructions" class="hidden">
+          <p id="inst">Instructions</p>
+          <p class="ins1">You have to collect 25 good things</p>
+          <p class="ins1">like petrol, car window and washing car.</p>
+          <p class="ins2">Avoid collecting bad things</p>
+          <p class="ins2">like hammer, danger sign and kracker.</p>
+          <div class="back"></div>
+          <div class="startgame"></div>
+        </div>
+
+        <div id="game_over" class="hidden">
+          <p>OH NO!!!! YOU LOST</p>
+          <div class="playagain1"></div>
+          <div class="back2"></div>
+        </div>
+
+        <div id="game_win" class="hidden">
+          <p>CONGRATULATIONS!</p>
+          <p id="won">YOU WON!!!</p>
+          <div class="playagain2"></div>
+          <div class="back3"></div>
+        </div>
+      </section>
+      <script src="js/repaircars.js"></script>
+    </main>
+    <!-- <footer></footer> -->
+  </body>
+</html>
